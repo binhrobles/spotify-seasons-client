@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/spotify-seasons-client/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/spotify-seasons-client/static/js/main.cf8daeaf.chunk.js",
-    "main.js.map": "/spotify-seasons-client/static/js/main.cf8daeaf.chunk.js.map",
+    "main.js": "/spotify-seasons-client/static/js/main.e992e2a5.chunk.js",
+    "main.js.map": "/spotify-seasons-client/static/js/main.e992e2a5.chunk.js.map",
     "runtime-main.js": "/spotify-seasons-client/static/js/runtime-main.183d78ae.js",
     "runtime-main.js.map": "/spotify-seasons-client/static/js/runtime-main.183d78ae.js.map",
     "static/js/2.d11a0a86.chunk.js": "/spotify-seasons-client/static/js/2.d11a0a86.chunk.js",
     "static/js/2.d11a0a86.chunk.js.map": "/spotify-seasons-client/static/js/2.d11a0a86.chunk.js.map",
     "index.html": "/spotify-seasons-client/index.html",
-    "precache-manifest.441627a9210c9f539bed73acda4944f8.js": "/spotify-seasons-client/precache-manifest.441627a9210c9f539bed73acda4944f8.js",
+    "precache-manifest.c23d004940e5ad9f7ec73c0118034575.js": "/spotify-seasons-client/precache-manifest.c23d004940e5ad9f7ec73c0118034575.js",
     "service-worker.js": "/spotify-seasons-client/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/spotify-seasons-client/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.d11a0a86.chunk.js.LICENSE.txt": "/spotify-seasons-client/static/js/2.d11a0a86.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.183d78ae.js",
     "static/js/2.d11a0a86.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.cf8daeaf.chunk.js"
+    "static/js/main.e992e2a5.chunk.js"
   ]
 }
