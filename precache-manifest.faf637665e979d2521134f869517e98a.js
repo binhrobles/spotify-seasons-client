@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5c3d35cbd8464fbacbb30c9451b8f9b",
+    "revision": "20ae3e7d97513bc3493f63ab2bc198ed",
     "url": "/spotify-seasons-client/index.html"
   },
   {
-    "revision": "787d2b5a67a71475ca02",
+    "revision": "302505ed0b084ea80616",
     "url": "/spotify-seasons-client/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spotify-seasons-client/static/js/2.ee44079f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "787d2b5a67a71475ca02",
-    "url": "/spotify-seasons-client/static/js/main.6f646d6a.chunk.js"
+    "revision": "302505ed0b084ea80616",
+    "url": "/spotify-seasons-client/static/js/main.3cc23cec.chunk.js"
   },
   {
     "revision": "d7edda9d0d8a34a14cf5",
