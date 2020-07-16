@@ -1,6 +1,7 @@
 import React, { useReducer } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
+import CallbackHandler from './components/CallbackHandler';
 import { LoginContext, initialState, reducer } from './store/LoginContext';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" component={Home} />
+          <Route path="/callback" component={CallbackHandler} />
         </Switch>
       </Router>
     </LoginContext.Provider>
