@@ -8,7 +8,11 @@ export default function Home() {
   if (!state.isLoggedIn) {
     return (
       <a
-        href={`https://accounts.spotify.com/authorize?client_id=${keys.clientId}&response_type=code&redirect_uri=${keys.redirectUri}&scope=${keys.scope}`}
+        href={`https://accounts.spotify.com/authorize?client_id=${
+          keys.clientId
+        }&response_type=code&redirect_uri=${encodeURIComponent(
+          keys.redirectUri
+        )}&scope=${keys.scope}`}
         onClick={() => {}}
       >
         <span>Authorize with Spotify</span>

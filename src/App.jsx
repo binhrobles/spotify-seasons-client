@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/callback" component={CallbackHandler} />
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
         </Switch>
       </Router>
     </LoginContext.Provider>
