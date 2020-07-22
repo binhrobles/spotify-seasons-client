@@ -3,27 +3,23 @@ import { createContext } from 'react';
 export const LoginContext = createContext(null);
 
 export const initialState = {
-  isLoggedIn: JSON.parse(localStorage.getItem('isLoggedIn')) || false,
-  user: JSON.parse(localStorage.getItem('user')) || null,
+  isLoggedIn: sessionStorage.getItem('access_token') || false,
+  user: JSON.parse(sessionStorage.getItem('user')) || null,
 };
 
 export const reducer = (state, action) => {
   switch (action.type) {
     case 'LOGIN': {
-      localStorage.setItem(
-        'isLoggedIn',
-        JSON.stringify(action.payload.isLoggedIn)
-      );
-      localStorage.setItem('user', JSON.stringify(action.payload.user));
-      console.log(action.payload.isLoggedIn);
+      sessionStorage.setItem('user', JSON.stringify(action.user));
+      sessionStorage.setItem('access_token', action.access_token);
       return {
         ...state,
-        isLoggedIn: action.payload.isLoggedIn,
-        user: action.payload.user,
+        isLoggedIn: true,
+        user: action.user,
       };
     }
     case 'LOGOUT': {
-      localStorage.clear();
+      sessionStorage.clear();
       return {
         ...state,
         isLoggedIn: false,

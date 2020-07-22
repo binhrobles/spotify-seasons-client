@@ -21,7 +21,11 @@ export default function Home() {
           const response = await axios.put(`${keys.backendUrl}/user`, {
             code: params.code,
           });
-          console.log(response);
+          dispatch({
+            type: 'LOGIN',
+            user: response.data.user,
+            access_token: response.data.access_token,
+          });
           setLoading(false);
         }
       })();
@@ -43,7 +47,7 @@ export default function Home() {
     );
   }
 
-  const { name } = state.user;
+  const { display_name } = state.user;
 
   const handleLogout = () => {
     dispatch({
@@ -55,5 +59,5 @@ export default function Home() {
     return <div>Logging in...</div>;
   }
 
-  return <div>Hello {name}</div>;
+  return <div>Hello {display_name}</div>;
 }
